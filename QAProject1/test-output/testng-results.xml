@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="9" failed="1" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Queue is selected]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-04-03T10:58:10 EDT" name="Default suite" finished-at="2023-04-03T11:00:18 EDT" duration-ms="128206">
+    <groups>
+    </groups>
+    <test started-at="2023-04-03T10:58:10 EDT" name="Default test" finished-at="2023-04-03T11:00:18 EDT" duration-ms="128206">
+      <class name="testcases.Testcase">
+        <test-method signature="setup()[pri:1, instance:testcases.Testcase@12359a82]" started-at="2023-04-03T10:58:10 EDT" name="setup" finished-at="2023-04-03T10:58:22 EDT" duration-ms="12446" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="home()[pri:3, instance:testcases.Testcase@12359a82]" started-at="2023-04-03T10:58:22 EDT" name="home" finished-at="2023-04-03T10:58:27 EDT" duration-ms="4581" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- home -->
+        <test-method signature="signin()[pri:4, instance:testcases.Testcase@12359a82]" started-at="2023-04-03T10:58:27 EDT" name="signin" finished-at="2023-04-03T10:58:28 EDT" duration-ms="1190" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signin -->
+        <test-method signature="Datastructure()[pri:5, instance:testcases.Testcase@12359a82]" started-at="2023-04-03T10:58:28 EDT" name="Datastructure" finished-at="2023-04-03T10:58:41 EDT" duration-ms="12591" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Datastructure -->
+        <test-method signature="Array()[pri:6, instance:testcases.Testcase@12359a82]" started-at="2023-04-03T10:58:41 EDT" name="Array" finished-at="2023-04-03T10:59:21 EDT" duration-ms="40297" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Array -->
+        <test-method signature="Linkedlist()[pri:7, instance:testcases.Testcase@12359a82]" started-at="2023-04-03T10:59:21 EDT" name="Linkedlist" finished-at="2023-04-03T10:59:31 EDT" duration-ms="10053" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='Deletion']"}
+  (Session info: chrome=111.0.5563.147)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ad03f41396c228e0afe5669d344c2c4c, findElement {using=xpath, value=//a[text()='Deletion']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.147, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\Shan\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:63868}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63868/devtoo..., se:cdpVersion: 111.0.5563.147, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ad03f41396c228e0afe5669d344c2c4c]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='Deletion']"}
+  (Session info: chrome=111.0.5563.147)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ad03f41396c228e0afe5669d344c2c4c, findElement {using=xpath, value=//a[text()='Deletion']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.147, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\Shan\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:63868}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63868/devtoo..., se:cdpVersion: 111.0.5563.147, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ad03f41396c228e0afe5669d344c2c4c
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+at pageobject.Linkedlist.PracticeQ(Linkedlist.java:73)
+at testcases.Testcase.Linkedlist(Testcase.java:113)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Linkedlist -->
+        <test-method signature="Stack()[pri:8, instance:testcases.Testcase@12359a82]" started-at="2023-04-03T10:59:31 EDT" name="Stack" finished-at="2023-04-03T10:59:39 EDT" duration-ms="8009" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Stack -->
+        <test-method signature="Queue()[pri:9, instance:testcases.Testcase@12359a82]" started-at="2023-04-03T10:59:39 EDT" name="Queue" finished-at="2023-04-03T10:59:52 EDT" duration-ms="12471" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Queue is selected]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Queue -->
+        <test-method signature="Treepage()[pri:10, instance:testcases.Testcase@12359a82]" started-at="2023-04-03T10:59:52 EDT" name="Treepage" finished-at="2023-04-03T11:00:14 EDT" duration-ms="22573" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Treepage -->
+        <test-method signature="Graphpage()[pri:11, instance:testcases.Testcase@12359a82]" started-at="2023-04-03T11:00:14 EDT" name="Graphpage" finished-at="2023-04-03T11:00:18 EDT" duration-ms="3563" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Graphpage -->
+      </class> <!-- testcases.Testcase -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
